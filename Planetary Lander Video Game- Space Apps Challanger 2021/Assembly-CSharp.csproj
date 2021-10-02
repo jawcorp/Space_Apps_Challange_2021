@@ -56,8 +56,17 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/main_menu_contraller.cs" />
+    <Compile Include="Assets/Scripts/procedual_mesh.cs" />
+    <Compile Include="Assets/Scripts/options_menu_contraller.cs" />
+    <Compile Include="Assets/Scripts/add_colliders_to_children.cs" />
+    <Compile Include="Assets/Scripts/credits_menu_contraller.cs" />
     <Compile Include="Assets/Scripts/fade_in_out_gradient.cs" />
-    <Compile Include="Assets/Scripts/ProcedualMesh.cs" />
+    <Compile Include="Assets/Scripts/player_movement.cs" />
+    <Compile Include="Assets/Scripts/mouse_look.cs" />
+    <Compile Include="Assets/Scripts/camera_selector.cs" />
+    <Compile Include="Assets/Scripts/lander_contraler.cs" />
+    <Compile Include="Assets/Scripts/ground_texture_generator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
