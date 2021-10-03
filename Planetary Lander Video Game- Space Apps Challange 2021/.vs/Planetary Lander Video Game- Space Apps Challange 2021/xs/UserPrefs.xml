@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{87F6997A-A117-83ED-751E-3C232616EF27}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/game_contraller.cs">
+    <Files>
+      <File FileName="Assets/Scripts/mouse_look.cs" Line="30" Column="6" />
+      <File FileName="Assets/Scripts/mouse_look_no_player.cs" Line="25" Column="69" />
+      <File FileName="Assets/Scripts/camera_selector.cs" Line="17" Column="6" />
+      <File FileName="Assets/Scripts/game_contraller.cs" Line="46" Column="14" />
+      <File FileName="Assets/Scripts/lander_contraler.cs" Line="70" Column="32" />
+      <File FileName="Assets/Scripts/player_movement.cs" Line="26" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Planetary Lander Video Game- Space Apps Challange 2021" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="game_contraller.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4ae72417-04ab-42bc-91f2-0d5e07f3860b" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

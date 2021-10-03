@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A672EDE2-4665-C5AE-7498-73BEA57D61AB}</ProjectGuid>
+    <ProjectGuid>{87F6997A-A117-83ED-751E-3C232616EF27}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,19 +56,42 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/player_movement.cs" />
     <Compile Include="Assets/Scripts/main_menu_contraller.cs" />
     <Compile Include="Assets/Scripts/procedual_mesh.cs" />
     <Compile Include="Assets/Scripts/options_menu_contraller.cs" />
     <Compile Include="Assets/Scripts/add_colliders_to_children.cs" />
+    <Compile Include="Assets/Scripts/lander_contraller.cs" />
     <Compile Include="Assets/Scripts/credits_menu_contraller.cs" />
-    <Compile Include="Assets/Scripts/fade_in_out_gradient.cs" />
-    <Compile Include="Assets/Scripts/player_movement.cs" />
     <Compile Include="Assets/Scripts/mouse_look.cs" />
     <Compile Include="Assets/Scripts/camera_selector.cs" />
-    <Compile Include="Assets/Scripts/lander_contraler.cs" />
+    <Compile Include="Assets/Scripts/fade_in_out_gradient.cs" />
     <Compile Include="Assets/Scripts/ground_texture_generator.cs" />
+    <Compile Include="Assets/Scripts/mouse_look_no_player.cs" />
+    <Compile Include="Assets/Scripts/game_contraller.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
