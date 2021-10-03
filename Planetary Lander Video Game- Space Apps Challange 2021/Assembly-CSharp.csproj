@@ -59,6 +59,8 @@
     <Compile Include="Assets/Scripts/player_movement.cs" />
     <Compile Include="Assets/Scripts/main_menu_contraller.cs" />
     <Compile Include="Assets/Scripts/procedual_mesh.cs" />
+    <Compile Include="Assets/Scripts/ui_contraller.cs" />
+    <Compile Include="Assets/Scripts/game_contraller.cs" />
     <Compile Include="Assets/Scripts/options_menu_contraller.cs" />
     <Compile Include="Assets/Scripts/add_colliders_to_children.cs" />
     <Compile Include="Assets/Scripts/lander_contraller.cs" />
@@ -66,9 +68,8 @@
     <Compile Include="Assets/Scripts/mouse_look.cs" />
     <Compile Include="Assets/Scripts/camera_selector.cs" />
     <Compile Include="Assets/Scripts/fade_in_out_gradient.cs" />
-    <Compile Include="Assets/Scripts/ground_texture_generator.cs" />
     <Compile Include="Assets/Scripts/mouse_look_no_player.cs" />
-    <Compile Include="Assets/Scripts/game_contraller.cs" />
+    <Compile Include="Assets/Scripts/ground_texture_generator.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
@@ -304,6 +305,9 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>Library/PackageCache/com.unity.connect.share@4.2.2/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.8f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -682,6 +686,15 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Play.Publisher.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Play.Publisher.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
+      <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

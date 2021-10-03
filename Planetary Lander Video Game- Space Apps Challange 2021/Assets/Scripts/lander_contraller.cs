@@ -16,6 +16,11 @@ public class lander_contraller : MonoBehaviour
     public bool isGrounded = false;
     public float verticalSpeed = 5;
 
+    public int startFuel = 1000;
+    public float currentFuel;
+
+    public float allitude;
+
     float x;
     float z;
 
@@ -28,7 +33,7 @@ public class lander_contraller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        currentFuel = startFuel;
     }
 
     // Update is called once per frame
@@ -36,12 +41,16 @@ public class lander_contraller : MonoBehaviour
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
-        velocity.y += thrust * Time.deltaTime * (enginePercent / 100);
+        if (currentFuel > 0)
+        {
+            velocity.y += thrust * Time.deltaTime * (enginePercent / 100);
+        }
 
         if (enginePercent > 2)
         {
+            var emission = particle.emission;
             particle.gameObject.SetActive(true);
-            particle.emissionRate = enginePercent * 2;
+            emission.rateOverTime = enginePercent * 2;
 
         }
         else
@@ -72,5 +81,7 @@ public class lander_contraller : MonoBehaviour
         }
 
         verticalSpeed = velocity.y;
+        currentFuel -= enginePercent * Time.deltaTime;
+        allitude = controller.transform.position.y;
     }
 }

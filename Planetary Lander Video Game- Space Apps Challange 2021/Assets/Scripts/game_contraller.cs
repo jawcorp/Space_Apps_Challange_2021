@@ -49,8 +49,8 @@ public class game_contraller : MonoBehaviour
 
     public void switchToPlayer()
     {
+        player.SetActive(true);
         playerMovement.playerCanMove = true;
-        player.transform.position = new Vector3(lander.transform.position.x + 20, 5, lander.transform.position.y + 10);
         cameraSelector.switch_to_player();
     }
 }
